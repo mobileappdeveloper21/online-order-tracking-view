@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Order Tracker Indicator</string>
+    <string name="check_icon">&#xf00c;</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StateProgressBar">
+
+        <attr name="spb_stateBackgroundColor" format="color" />
+        <attr name="spb_stateForegroundColor" format="color" />
+
+        <attr name="spb_stateNumberBackgroundColor" format="color" />
+        <attr name="spb_stateNumberForegroundColor" format="color" />
+
+        <attr name="spb_currentStateDescriptionColor" format="color" />
+        <attr name="spb_stateDescriptionColor" format="color" />
+
+        <attr name="spb_stateSize" format="dimension" />
+
+        <attr name="spb_stateTextSize" format="dimension" />
+
+        <attr name="spb_stateDescriptionSize" format="dimension" />
+
+        <attr name="spb_stateLineThickness" format="dimension" />
+
+        <attr name="spb_checkStateCompleted" format="boolean" />
+
+        <attr name="spb_stateNumberIsDescending" format="boolean" />
+
+        <attr name="spb_animateToCurrentProgressState" format="boolean" />
+
+        <attr name="spb_enableAllStatesCompleted" format="boolean" />
+
+        <attr name="spb_descriptionTopSpaceDecrementer" format="dimension" />
+
+        <attr name="spb_descriptionTopSpaceIncrementer" format="dimension" />
+
+        <attr name="spb_animationDuration" format="integer" />
+
+        <attr name="spb_animationStartDelay" format="integer" />
+
+        <attr name="spb_justifyMultilineDescription" format="boolean" />
+
+        <attr name="spb_descriptionLinesSpacing" format="dimension" />
+
+        <attr name="spb_maxDescriptionLines" format="integer" />
+
+
+        <attr name="spb_currentStateNumber" format="enum">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+
+
+        <attr name="spb_maxStateNumber" format="enum">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="TrackerStatesProgressbar">
+        <attr name="trackerProgressTitleSize"
+            format="dimension"
+            />
+        <attr name="trackerProgressSubTitleSize"
+            format="dimension"
+            />
+        <attr name="trackerProgressContainerMargin" format="dimension"/>
+        <attr name="trackerIndicatorCompletedIcon" format="reference"/>
+        <attr name="trackerIndicatorWorkingIcon" format="reference"/>
+        <attr name="statusIcon" format="reference"/>
+        <attr name="trackerProgressTitleColor" format="color"/>
+        <attr name="trackerProgressSubTitleColor" format="color"/>
+        <attr name="isTrackerIndicatorIcon" format="boolean"/>
+        <attr name="enable_StatusIcon" format="boolean"/>
+        <attr name="enable_status_dateTxt" format="boolean"/>
+        <attr name="trackerIndicatorContainerSize" format="dimension"/>
+        <attr name="trackerIndicatorWorkingBgColor" format="color"/>
+        <attr name="trackerIndicatorCompletedBgColor" format="color"/>
+        <attr name="trackerDateStatusColor" format="color"/>
+        <attr name="progressLineScale" format="float"/>
+        <attr name="ProgressTrackerColor" format="color"/>
+        <attr name="ProgressColor" format="color"/>
+        <attr name="trackerDateStatusSize" format="dimension"/>
+        <attr name="trackProgressEnableOnTouch" format="boolean"/>
+        <attr name="view_type" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+    </declare-styleable>
+
+
+</resources>
